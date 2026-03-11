@@ -1,0 +1,12 @@
+import random
+
+getal = random.randint (1,1000)
+if getal >= 500:
+    kop = "kop"
+    print(kop)
+elif getal == 777:
+    jackpot = "jackpot"
+    print(jackpot)
+else:
+    munt = "munt"
+    print (munt)
